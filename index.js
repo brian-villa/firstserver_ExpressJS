@@ -28,8 +28,12 @@ app.get('/', (req, res) => {
 }) // end point
 
 
-app.get('/sobre', (req, res) => {
-    res.send("Sobre")
+app.get('/quem-somos', (req, res) => {
+    res.render("quem-somos")
+}) // end point
+
+app.get('/produtos', (req, res) => {
+    res.render('produtos')
 }) // end point
 
 //404ERROR (not found)

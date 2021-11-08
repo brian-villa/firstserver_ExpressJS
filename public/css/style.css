@@ -1,3 +1,85 @@
-body {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+h1 h2 {
+    margin-bottom: 20px;
+}
+
+.header {
+    background-image: url("/img/city.jpeg");
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 1 0 10px black;
+    padding: 50px 0;
+    margin-bottom: 5px;    
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 26%;
+    padding: 30px;
+    margin-right: 4px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 4px;
+    border-radius: 10px 3px;
+    background-color: #5cd9ff;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.content {
+    width: 74%;
+    background-color: #fcfcfc;
+    padding: 30px;
+    border-radius: 40px 5px;
+}
+
+.footer {
+    margin-top: auto;
+    position: fixed;
+    background-color: #97e7ff;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.quem-somos {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.quem-somos p {
+    text-align: center;
+
+}
+
