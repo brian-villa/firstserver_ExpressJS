@@ -38,7 +38,31 @@ app.get('/quem-somos', (req, res) => {
 
 app.get('/produtos', (req, res) => {
     res.render('produtos', {
-        title: 'Furniture - Produtos'
+        title: 'Furniture - Produtos',
+    })
+}) // end point
+
+app.get('/posts', (req, res) => {
+    res.render('posts', {
+        title:'Furniture -Posts',  
+        
+        posts: [
+            {
+                title: 'Novidade no mundo da tecnologia',
+                text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque laboriosam obcaecati eveniet perspiciatis facilis, animi dolorem distinctio nulla soluta saepe! Enim dolorem sint nesciunt dolores tempore quae praesentium cumque ad!',
+            },
+
+            {
+                title: 'Criando um servidor com Nodejs',
+                text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque laboriosam obcaecati eveniet perspiciatis facilis, animi dolorem distinctio nulla soluta saepe! Enim dolorem sint nesciunt dolores tempore quae praesentium cumque ad!',
+            },
+
+            {
+                title: 'Javascript é a linguagem mais usada no mundo',
+                text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque laboriosam obcaecati eveniet perspiciatis facilis, animi dolorem distinctio nulla soluta saepe! Enim dolorem sint nesciunt dolores tempore quae praesentium cumque ad!',
+            },
+        ]
+
     })
 }) // end point
 
