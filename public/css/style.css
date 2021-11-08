@@ -60,6 +60,25 @@ h1 h2 {
     border-radius: 40px 5px;
 }
 
+.content h1 {
+    margin-bottom: 18px;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.post {
+    width: auto;
+    margin-left: 5px;
+}
+
+.post img {
+    margin-top: 10px;
+}
+
 .footer {
     margin-top: auto;
     position: fixed;

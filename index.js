@@ -50,16 +50,19 @@ app.get('/posts', (req, res) => {
             {
                 title: 'Novidade no mundo da tecnologia',
                 text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque laboriosam obcaecati eveniet perspiciatis facilis, animi dolorem distinctio nulla soluta saepe! Enim dolorem sint nesciunt dolores tempore quae praesentium cumque ad!',
+                stars: 3,
             },
 
             {
                 title: 'Criando um servidor com Nodejs',
                 text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque laboriosam obcaecati eveniet perspiciatis facilis, animi dolorem distinctio nulla soluta saepe! Enim dolorem sint nesciunt dolores tempore quae praesentium cumque ad!',
+                
             },
 
             {
                 title: 'Javascript é a linguagem mais usada no mundo',
                 text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque laboriosam obcaecati eveniet perspiciatis facilis, animi dolorem distinctio nulla soluta saepe! Enim dolorem sint nesciunt dolores tempore quae praesentium cumque ad!',
+                stars: 5,
             },
         ]
 

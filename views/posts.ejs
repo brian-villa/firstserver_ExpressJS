@@ -18,6 +18,14 @@
                     <div class="post">
                         <h3> <%= item.title  %> </h3>
                         <p> <%= item.text  %> </p>
+
+                        <% if(item.stars) { %>
+                            <% for( let i = 0; i < item.stars; i++ ) { %>
+                                <img src="https://cdn.iconscout.com/icon/free/png-256/star-bookmark-favorite-shape-rank-16-28621.png" alt="star" width="20">
+                            <% } %>
+
+                        <% } %> 
+                        
                     </div>
 
                 <% }) %> 
