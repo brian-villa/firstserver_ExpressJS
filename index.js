@@ -24,16 +24,22 @@ app.use(expressPublic) // e a const é passada para a aplicação
 
 //ROTAS
 app.get('/', (req, res) => {
-    res.render('index')
+    res.render('index', {
+        title: 'Furniture - Home'
+    })
 }) // end point
 
 
 app.get('/quem-somos', (req, res) => {
-    res.render("quem-somos")
+    res.render("quem-somos", {
+        title: 'Furniture - Quem Somos'
+    } )
 }) // end point
 
 app.get('/produtos', (req, res) => {
-    res.render('produtos')
+    res.render('produtos', {
+        title: 'Furniture - Produtos'
+    })
 }) // end point
 
 //404ERROR (not found)
